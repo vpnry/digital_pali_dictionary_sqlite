@@ -1,0 +1,122 @@
+/** your custom css */
+
+#dictionary-res { display: none; position: fixed; top: 0px; right: 0%; left: 0%; max-height: 70%; width: auto; padding: 4px; /* border: #5abfde solid 1px; */ border-bottom: orange solid 1.5px; background-color: white !important; overflow-x: scroll; overflow-y: scroll; /* z-index: 999 = appears on top of all other elements on the page.*/ z-index: 999; }
+
+.pword { color: brown; font-weight: bold; text-align: center; font-size: x-large; }
+
+/**
+ * The below inline css styles are adapted from 
+ * Digital Pāḷi Dictionary
+ * Creative Commons Attribution-NonCommercial 4.0 International License
+ * https://github.com/digitalpalidictionary/digitalpalidictionary/releases
+ */
+
+.dp1 h3{font-size:130%;margin-top:10px;margin-bottom:1px;}
+.dp1 body{font-family:"Noto Sans","DejaVu Serif","Verajja Serif";}
+.dp1 div.content{border:2px solid #00A4CC;border-radius:7px;line-height:150%;margin:0;overflow:auto;padding:3px 7px;text-align:left;}
+.dp1 p{line-height:150%;margin:0;vertical-align:middle;text-align:left;}
+.dp1 p.heading{margin:0;padding:2px 0;}
+.dp1 .underlined{border-bottom:1px solid #00A4CC;margin-bottom:5px;}
+.dp1 .overlined{border-top:1px solid #00A4CC;margin-top:5px;}
+.dp1 p.heading b{font-weight:700;}
+.dp1 p.footer{padding:5px 0;border-top:1px solid #00A4CC;}
+.dp1 table{margin:3px 0;}
+.dp1 table.grammar{border:none;}
+.dp1 table.grammar td, .dp1 table.grammar th{text-align:left;vertical-align:top;padding:0 0;}
+.dp1 table.grammar th{color:#00A4CC;font-weight:700;white-space:nowrap;padding:0 5px 2px 0;}
+.dp1 table.grammar b{font-weight:700;}
+.dp1 p.sutta{color:#00A4CC;font-style:italic;padding:0 0 7px 0;}
+.dp1 table.inflection{width:100%;padding:0 0 5px 0;}
+.dp1 table.inflection td, .dp1 table.inflection th{border:1px solid gray;border-radius:7px;line-height:150%;padding:5px 5px;text-align:center;vertical-align:middle;}
+.dp1 table.inflection th{border:1px solid #00A4CC;color:#00A4CC;font-weight:700;white-space:nowrap;}
+.dp1 span.gray{color:gray;}
+.dp1 a.jump{color:#00A4CC;text-decoration:none;font-weight:bold;}
+.dp1 table.family td, .dp1 table.family th{text-align:left;vertical-align:top;}
+.dp1 table.family th{color:#00A4CC;font-weight:700;white-space:nowrap;}
+.dp1 table.family td{padding-right:7px;}
+.dp1 table.family b{font-weight:700;}
+.dp1 input{display:none;}
+.dp1 div.button-box{font-size:0;margin:2px 0 3px 0;}
+.dp1 a.button{background-color:#65DBFF;border-radius:7px;box-shadow:0 4px 4px -2px #888;color:#000;cursor:pointer;display:inline-block;font-size:11px;font-weight:400;margin:0 1px 2px 0;padding:3px 5px;text-decoration:none;user-select:none;}
+.dp1 a.button.close{float:right;margin:10px;}
+.dp1 a.button.active{background-color:#00A4CC;color:black;user-select:none;}
+.dp1 a.button:hover{background-color:#00A4CC;color:white;user-select:none;}
+.dp1 .link{color:#00A4CC;font-weight:700;}
+.dp1 .hidden{display:none;}
+.dp1 table.freq th, .dp1 table.freq td{vertical-align:middle;}
+.dp1 table.freq thead th{text-align:center;}
+.dp1 table.freq tbody th{text-align:left;}
+.dp1 table.freq td{border-width:1px;border-style:solid;border-radius:7px;text-align:center;width:12%;}
+.dp1 td.void{border:0 solid transparent;}
+.dp1 td.gr0{border:1px solid #dbdbff;}
+.dp1 td.gr1{background-color:#ddecfa;border-color:#ddecfa;color:#000;}
+.dp1 td.gr2{background-color:#d2e2ff;border-color:#d2e2ff;color:#000;}
+.dp1 td.gr3{background-color:#b0dbff;border-color:#b0dbff;color:#000;}
+.dp1 td.gr4{background-color:#9dc3fd;border-color:#9dc3fd;color:#000;}
+.dp1 td.gr5{background-color:#668efc;border-color:#668efc;color:#000;}
+.dp1 td.gr6{background-color:#4668ff;border-color:#4668ff;color:#fff;}
+.dp1 td.gr7{background-color:#314ffc;border-color:#314ffc;color:#fff;}
+.dp1 td.gr8{background-color:#003cff;border-color:#003cff;color:#fff;}
+.dp1 td.gr9{background-color:#00b;border-color:#00b;color:#fff;}
+.dp1 td.gr10{background-color:#00008f;border-color:#00008f;color:#fff;}
+.dp1 table.freq tr.line th{border-top:1px solid #00A4CC;}
+
+
+.dp2 h3{font-size:130%;margin-top:10px;margin-bottom:1px;}
+.dp2 body{font-family:"Noto Sans","DejaVu Serif","Verajja Serif";}
+.dp2 div.root_content{border:2px solid #AB3C00;border-radius:7px;line-height:150%;margin:0;overflow:auto;padding:3px 7px;text-align:left;}
+.dp2 p{line-height:150%;margin:0;vertical-align:middle;text-align:left;}
+.dp2 p.heading{margin:0;padding:2px 0;}
+.dp2 .underlined{border-bottom:1px solid #AB3C00;margin-bottom:5px;}
+.dp2 .overlined{border-top:1px solid #AB3C00;margin-top:5px;}
+.dp2 p.heading b{font-weight:700;color:inherit;}
+.dp2 p.footer{padding:5px 0;border-top:1px solid #AB3C00;}
+.dp2 table{margin:3px 0;}
+.dp2 table.root_info{border:none;}
+.dp2 table.root_info td, .dp2 table.root_info th{text-align:left;vertical-align:top;padding:0 0;}
+.dp2 table.root_info th{color:#AB3C00;font-weight:700;white-space:normal;padding:0 5px 2px 0;}
+.dp2 table.root_info b{font-weight:700;}
+.dp2 span.gray{color:gray;}
+.dp2 table.root_family td, .dp2 table.root_family th{text-align:left;vertical-align:top;}
+.dp2 table.root_family th{color:#AB3C00;font-weight:700;white-space:nowrap;}
+.dp2 table.root_family b{font-weight:700;}
+.dp2 input{display:none;}
+.dp2 div.root_button_box{font-size:0;margin:2px 0 3px 0;}
+.dp2 a.root_button{background-color:#F95700;border-radius:7px;box-shadow:0 4px 4px -2px #888;color:#000;cursor:pointer;display:inline-block;font-size:11px;font-weight:400;margin:0 1px 2px 0;padding:3px 5px;text-decoration:none;user-select:none;}
+.dp2 a.root_button.close{float:right;margin:10px;}
+.dp2 a.root_button.active{background-color:#AB3C00;color:black;user-select:none;}
+.dp2 a.root_button:hover{background-color:#AB3C00;color:white;user-select:none;}
+.dp2 .root_link{color:#AB3C00;font-weight:700;}
+.dp2 .hidden{display:none;}
+.dp2 table.root_matrix{width:100%;}
+.dp2 table.root_matrix th, .dp2 table.root_matrix td{border-radius:5px;line-height:150%;vertical-align:top;padding:5px 5px;overflow:auto;}
+.dp2 table.root_matrix th{border:1px solid #AB3C00;color:#F95700;font-weight:700;text-align:center;white-space:nowrap;}
+.dp2 table.root_matrix td{border:1px solid gray;text-align:left;}
+.dp2 table.root_matrix td b{color:#AB3C00;font-weight:700;white-space:nowrap;}
+.dp2 span.colour{color:#AB3C00;font-weight:700;}
+
+
+.dp3 body{font-family:"Noto Sans","DejaVu Serif","Verajja Serif";}
+.dp3 h3{font-size:130%;margin-top:10px;margin-bottom:1px;}
+.dp3 div.sandhi{border:2px solid #ffd700;border-radius:7px;line-height:150%;margin:0;overflow:auto;padding:3px 7px;text-align:left;}
+.dp3 p.sandhi{line-height:150%;margin:2px 0;vertical-align:middle;text-align:left;}
+.dp3 a.sandhi_feedback{float:right;text-decoration:none;margin:1px;vertical-align:top;}
+
+
+.dp4 h3{font-size:130%;margin-top:10px;margin-bottom:1px;}
+.dp4 body{font-family:"Noto Sans","DejaVu Serif","Verajja Serif";}
+.dp4 div.epd{border:2px solid #8B008B;border-radius:7px;line-height:150%;margin:0;overflow:auto;padding:3px 7px;text-align:left;}
+.dp4 p{line-height:150%;margin:0;vertical-align:middle;text-align:left;}
+.dp4 b.epd{color:#8B008B;font-weight:700;}
+
+
+.dp5 h3{font-size:130%;margin-top:10px;margin-bottom:1px;}
+.dp5 body{font-family:"Noto Sans","DejaVu Serif","Verajja Serif";}
+.dp5 div.help{border:2px solid #0ab33d;border-radius:7px;line-height:150%;margin:0;overflow:auto;padding:3px 5px;text-align:left;}
+.dp5 p{line-height:150%;margin:0;vertical-align:middle;text-align:left;}
+.dp5 span.gray{color:gray;}
+.dp5 table{margin:3px 0;}
+.dp5 table.help{border:0;width:100%;}
+.dp5 table.help td, .dp5 table.help th{line-height:150%;padding:0 5px 0 0;text-align:left;vertical-align:top;}
+.dp5 table.help th{color:#0ab33d;font-weight:700;}
+.dp5 table.help b{font-weight:700;}

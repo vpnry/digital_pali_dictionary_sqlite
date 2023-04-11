@@ -22,7 +22,8 @@ python3 dpd_to_sqlite.py
 All word entries are in Romanized Pali only, with other Pali scripts stripped out to prevent excessive file size in the database.
 
 ```python
-PALI_ROMAN_CHARS = r'[āīūṁṃṇḍḷṛṣśñṅA-Za-z]'
+
+PALI_ROMAN_CHARS = r'[ĀĪŪṀṂṆḌḶṚṢŚÑṄāīūṁṃṇḍḷṛṣśñṅA-Za-z]'
 
 ```
 

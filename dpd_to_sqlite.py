@@ -16,7 +16,8 @@ import requests
 from parse_dpd_css import parse_css
 
 
-PALI_ROMAN_CHARS = r'[āīūṁṃṇḍḷṛṣśñṅA-Za-z]'
+PALI_ROMAN_CHARS = r'[ĀĪŪṀṂṆḌḶṚṢŚÑṄāīūṁṃṇḍḷṛṣśñṅA-Za-z]'
+
 raw_extracted_styles = 'temp_extracted_styles.css'
 
 
@@ -106,8 +107,11 @@ def filter_latin_words(words: list) -> list:
 
 
 def dpd_to_sqlite_main(tab_file: str = "dpd.txt") -> None:
+
     download_dpd_zip()
+
     print("Generating Sqlite3: dictionary.db")
+    print("It will take a while....")
 
     if os.path.exists('dictionary.db'):
         os.remove('dictionary.db')

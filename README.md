@@ -2,6 +2,8 @@
 
 This Python script converts the **dpd.zip** file (Goldendict data) from [Digital Pali Dictionary](https://github.com/digitalpalidictionary/digitalpalidictionary/releases), into an Sqlite3 database file (**dictionary.db** ~1.x GB).
 
++ Test the db on an Tipitaka Android app: [https://www.youtube.com/watch?v=k-qwc_jzGeU](https://www.youtube.com/watch?v=k-qwc_jzGeU)
+
 ## How to use
 
 - System requirements: python3, zip (` sudo apt install zip`), pyglossary (`pip3 install -U pyglossary`)

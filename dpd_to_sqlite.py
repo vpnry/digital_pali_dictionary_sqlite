@@ -190,15 +190,21 @@ def dpd_to_sqlite_main(tab_file: str = "dpd.txt") -> None:
                 "INSERT INTO dictionary (word, defi) VALUES (?, ?)", batch)
 
     conn.commit()
+
+    print("\nOptimizing the db with the vacuum command...")
+    conn.execute("VACUUM")
+
     conn.close()
 
     db_size_mb = os.path.getsize('dictionary.db') / (1024**2)
     print(f"The size of the dictionary.db file is ~ {db_size_mb:.2f} MB")
 
+    print("Zipping the dictionary.db to dictionary.zip ...")
     os.system("zip dictionary.zip dictionary.db")
-    zip_size_mb = os.path.getsize('dictionary.zip') / (1024**2)
 
-    print(f"The size of the dictionary.db file is ~ {zip_size_mb:.2f} MB")
+    zip_size_mb = os.path.getsize('dictionary.zip') / (1024**2)
+    print(
+        f"The size of the compressed dictionary.zip file is ~ {zip_size_mb:.2f} MB")
 
     with open(raw_extracted_styles, 'w', encoding='utf-8') as css_file:
         css_content = '\n\n'.join(style_tags).replace('\\n', ' ')
